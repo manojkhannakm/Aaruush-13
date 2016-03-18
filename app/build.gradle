@@ -1,16 +1,9 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'webarch'
-            keyPassword 'webarch'
-            storeFile file('E:/Manoj/Projects/Android/Aaruush13/app/release.keystore')
-            storePassword 'webarch'
-        }
-    }
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
+
     defaultConfig {
         applicationId "com.webarch.aaruush13"
         minSdkVersion 10
@@ -18,11 +11,11 @@ android {
         versionCode 1
         versionName "1.0"
     }
+
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.config
         }
     }
 }

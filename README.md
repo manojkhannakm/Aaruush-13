@@ -2,7 +2,7 @@
 
 ### Introduction
 
-An Android application to showcase all event information of Aaruush'13, the annual technical fest of SRM University. The user interface is based on the Metro design.
+An Android application to showcase all event information of [Aaruush'13](http://www.aaruush.net), the annual technical fest of SRM University. The user interface is based on the Metro design.
 
 ### Preview
 

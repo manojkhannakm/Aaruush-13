@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction:"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_3"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/workshops_workshop_introduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/border_2"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Powered by:"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_3"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/workshops_workshop_powered_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/border_2" />
+
+        <com.webarch.aaruush13.components.CollapsibleView
+            android:id="@+id/workshops_workshop_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+
+</ScrollView>

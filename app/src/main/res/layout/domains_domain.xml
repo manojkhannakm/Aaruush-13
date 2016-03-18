@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/domains_domain_event_pages_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/domains_domain_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/domains_domain_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Introduction:"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_3"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/domains_domain_introduction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/border_2"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contacts:"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_3"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/domains_domain_contacts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/border_2"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Events:"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_3"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

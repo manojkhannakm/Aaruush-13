@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <declare-styleable name="PeopleView">
+
+        <attr name="people_pic" format="reference" />
+
+        <attr name="people_name" format="string" />
+
+        <attr name="people_title" format="string" />
+
+        <attr name="people_email" format="string" />
+
+        <attr name="people_phone" format="string" />
+
+    </declare-styleable>
+
+</resources>

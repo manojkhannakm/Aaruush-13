@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:people="http://schemas.android.com/apk/res-auto">
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="ashutosh_agrawal@live.in"
+        people:people_name="Ashutosh Agarwal"
+        people:people_phone="+91-94452 77205"
+        people:people_pic="@drawable/people_ashutosh"
+        people:people_title="Secretary, WEBARCH" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="arun.hulk@gmail.com"
+        people:people_name="Arun Iyer"
+        people:people_phone="+91-95660 52033"
+        people:people_pic="@drawable/people_arun"
+        people:people_title="Joint Secretary, WEBARCH" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="online@aaruush.net"
+        people:people_name="Neelabh Pandey"
+        people:people_phone="+91-95660 52033"
+        people:people_pic="@drawable/people_neelabh"
+        people:people_title="Treasurer, WEBARCH" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="online@aaruush.net"
+        people:people_name="Aakash Patel"
+        people:people_phone="+91-97899 92012"
+        people:people_pic="@drawable/people_aakash"
+        people:people_title="Web Developer" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="online@aaruush.net"
+        people:people_name="Anirudh Mani"
+        people:people_phone="+91-95660 52033"
+        people:people_pic="@drawable/people_anirudh"
+        people:people_title="App Developer &amp; Music Composer" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="online@aaruush.net"
+        people:people_name="Arnab Kundu"
+        people:people_phone="+91-99622 98730"
+        people:people_pic="@drawable/people_arnab"
+        people:people_title="Web Developer &amp; Graphic Designer" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="manojkhannakm@gmail.com"
+        people:people_name="Manoj Khanna"
+        people:people_phone="+91-77088 38162"
+        people:people_pic="@drawable/people_manoj"
+        people:people_title="Android Developer" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="online@aaruush.net"
+        people:people_name="Monik Reddy"
+        people:people_phone="+91-95660 52033"
+        people:people_pic="@drawable/people_monik"
+        people:people_title="VFX Expert" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="online@aaruush.net"
+        people:people_name="Punit Gupta"
+        people:people_phone="+91-98403 09508"
+        people:people_pic="@drawable/people_punit"
+        people:people_title="Web Developer" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="online@aaruush.net"
+        people:people_name="Rishabh Gupta"
+        people:people_phone="+91-95660 52033"
+        people:people_pic="@drawable/people_rishabh"
+        people:people_title="Graphics Designer" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="online@aaruush.net"
+        people:people_name="Rakshit Tanti"
+        people:people_phone="+91-95660 52033"
+        people:people_pic="@drawable/people_rakshit"
+        people:people_title="Application Developer" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="online@aaruush.net"
+        people:people_name="Shekhar Singh"
+        people:people_phone="+91-99622 44695"
+        people:people_pic="@drawable/people_shekhar"
+        people:people_title="Web Developer" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="online@aaruush.net"
+        people:people_name="Sandeep Agrawal"
+        people:people_phone="+91-98844 39340"
+        people:people_pic="@drawable/people_sandeep"
+        people:people_title="Web Developer" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="online@aaruush.net"
+        people:people_name="Shreya Chakroborthy"
+        people:people_phone="+91-81488 98713"
+        people:people_pic="@drawable/people_shreya"
+        people:people_title="Web Developer" />
+
+</merge>

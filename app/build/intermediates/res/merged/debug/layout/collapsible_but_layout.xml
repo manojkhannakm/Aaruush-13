@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/collapsible_but_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/collapsible_but_arrow" />
+
+    <TextView
+        android:id="@+id/collapsible_but_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/border_2"
+        android:layout_toRightOf="@id/collapsible_but_arrow"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/text_3" />
+
+</merge>

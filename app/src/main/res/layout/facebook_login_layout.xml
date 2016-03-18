@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto">
+
+    <com.facebook.widget.ProfilePictureView
+        android:id="@+id/facebook_login_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/border_2"
+        android:visibility="gone"
+        facebook:preset_size="normal" />
+
+    <TextView
+        android:id="@+id/facebook_login_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/border_2"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/text_2"
+        android:visibility="gone" />
+
+    <com.facebook.widget.LoginButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</merge>

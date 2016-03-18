@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/border_2"
+        android:layout_marginLeft="@dimen/border_1"
+        android:layout_marginRight="@dimen/border_1"
+        android:layout_marginTop="@dimen/border_2"
+        android:text="Quick access"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/text_1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/nav_buts_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+</merge>

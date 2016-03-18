@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/tile_anim_container_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/tile_screen_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+        <com.webarch.aaruush13.components.NavPane
+            android:id="@+id/nav_pane"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="invisible" />
+
+        <com.webarch.aaruush13.components.SearchPane
+            android:id="@+id/search_pane"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/tile_screen_container_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/title_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/nav_pane_but"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/border_2"
+                    android:paddingLeft="@dimen/border_2"
+                    android:paddingTop="@dimen/border_2"
+                    android:src="@drawable/nav_pane_but"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tile_screen_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/nav_pane_but"
+                    android:padding="@dimen/border_2"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/text_1" />
+
+                <ImageView
+                    android:id="@+id/search_pane_but"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:padding="@dimen/border_2"
+                    android:src="@drawable/search_pane_but" />
+
+            </RelativeLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/tile_screen_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF">
+
+                <android.support.v4.view.PagerTitleStrip
+                    android:id="@+id/tile_screen_page_tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:background="#FFFFFF"
+                    android:paddingTop="@dimen/border_3"
+                    android:textSize="@dimen/text_2"
+                    android:visibility="gone" />
+
+            </android.support.v4.view.ViewPager>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

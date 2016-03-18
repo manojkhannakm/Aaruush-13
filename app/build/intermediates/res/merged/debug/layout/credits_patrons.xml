@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:people="http://schemas.android.com/apk/res-auto">
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="director.et@srmuniv.ac.in"
+        people:people_name="Dr. C. Muthamizhchelvan"
+        people:people_pic="@drawable/people_director"
+        people:people_title="Director - E &amp; T" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="convenor@aaruush.net"
+        people:people_name="Prof. A. Rathinam"
+        people:people_pic="@drawable/people_convenor"
+        people:people_title="Convenor Aaruush" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="advisor.finance@aaruush.net"
+        people:people_name="Prof. V. M. Ponniah"
+        people:people_pic="@drawable/people_finance"
+        people:people_title="Finance Advisor - Aaruush" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="eo@srmuniv.ac.in"
+        people:people_name="Mr. V. Thirumurugan"
+        people:people_pic="@drawable/people_estate"
+        people:people_title="Estate Officer" />
+
+</merge>

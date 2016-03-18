@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'webarch'
+            keyPassword 'webarch'
+            storeFile file('E:/Manoj/Projects/Android/Aaruush13/app/release.keystore')
+            storePassword 'webarch'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId "com.webarch.aaruush13"
+        minSdkVersion 10
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/gcm.jar')
+    compile 'com.android.support:support-v4:23.0.1'
+    compile 'com.google.android.gms:play-services-gcm:8.4.0'
+    compile project(':AndEngine')
+    compile project(':AndEnginePhysicsBox2DExtension')
+    compile project(':facebook')
+}

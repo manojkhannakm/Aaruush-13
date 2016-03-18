@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/people_thumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/border_2" />
+
+    <TextView
+        android:id="@+id/people_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/people_thumb"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_2" />
+
+    <TextView
+        android:id="@+id/people_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/people_name"
+        android:layout_toRightOf="@id/people_thumb"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_3" />
+
+</merge>

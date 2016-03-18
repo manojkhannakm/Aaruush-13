@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:people="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="General"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_3"
+        android:textStyle="bold" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="secretary@aaruush.net"
+        people:people_name="Mohit Kumar Maroti"
+        people:people_phone="+91-89390 13982"
+        people:people_pic="@drawable/people_mohit"
+        people:people_title="Secretary" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="jointsecretary@aaruush.net"
+        people:people_name="Kasaraneni Uma Sankar"
+        people:people_phone="+91-90253 73637"
+        people:people_pic="@drawable/people_umashankar"
+        people:people_title="Joint Secretary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Public relations"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_3"
+        android:textStyle="bold" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="pro@aaruush.net"
+        people:people_name="Sneha Shankar"
+        people:people_phone="+91-99629 40896"
+        people:people_pic="@drawable/people_sneha"
+        people:people_title="Public Relation Office" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="pro@aaruush.net"
+        people:people_name="Arvind Vasudevan"
+        people:people_phone="+91-98849 56750"
+        people:people_pic="@drawable/people_arvind"
+        people:people_title="Public Relation Office" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sponsorship"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_3"
+        android:textStyle="bold" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="sponsorship@aaruush.net"
+        people:people_name="Saurabh Singh"
+        people:people_phone="+91-74189 39100"
+        people:people_pic="@drawable/people_saurabh"
+        people:people_title="Head - Sponsorship &amp; Marketing" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="sponsorship@aaruush.net"
+        people:people_name="Nikita Rathi"
+        people:people_phone="+91-91761 26505"
+        people:people_pic="@drawable/people_nikita"
+        people:people_title="Sponsorship &amp; Marketing Head" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Workshops"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_3"
+        android:textStyle="bold" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="workshops@aaruush.net"
+        people:people_name="Palle Shankarananda Reddy"
+        people:people_phone="+91-78450 79003"
+        people:people_pic="@drawable/people_shankar"
+        people:people_title="Head - Workshops Plaaning &amp; Implementation" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event organizers"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_3"
+        android:textStyle="bold" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="event.org@aaruush.net"
+        people:people_name="Kshitij Narang"
+        people:people_phone="+91-80561 92099"
+        people:people_pic="@drawable/people_kshitij"
+        people:people_title="Head - Events" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="event.org@aaruush.net"
+        people:people_name="Malvika Chandhok"
+        people:people_phone="+91-97909 50168"
+        people:people_pic="@drawable/people_malvika"
+        people:people_title="Head - Events" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospitality"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_3"
+        android:textStyle="bold" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="hospitality@aaruush.net"
+        people:people_name="Pranshu Kumar"
+        people:people_phone="+91-89390 17891"
+        people:people_pic="@drawable/people_pranshu"
+        people:people_title="Head - Hospitality" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="hospitality@aaruush.net"
+        people:people_name="C. Vignesh"
+        people:people_phone="+91-98404 28409"
+        people:people_pic="@drawable/people_vignesh"
+        people:people_title="Head - Hospitality" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ambassadors"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_3"
+        android:textStyle="bold" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="csi@aaruush.net"
+        people:people_name="Jay Sharma"
+        people:people_phone="+91-95662 26587"
+        people:people_pic="@drawable/people_jay"
+        people:people_title="Head - Corporate Strategy Implementation" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="csi@aaruush.net"
+        people:people_name="Kuruba Anurag Sagar"
+        people:people_phone="+91-95660 62516"
+        people:people_pic="@drawable/people_anurag"
+        people:people_title="Head - Corporate Strategy Implementation" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Technical assistance"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_3"
+        android:textStyle="bold" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="technicalhead@aaruush.net"
+        people:people_name="Ashutosh Agrawal"
+        people:people_phone="+91 94452 77205"
+        people:people_pic="@drawable/people_ashutosh"
+        people:people_title="Technical Head" />
+
+    <com.webarch.aaruush13.components.PeopleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_2"
+        people:people_email="technicalhead@aaruush.net"
+        people:people_name="Arun Iyer"
+        people:people_phone="+91 95660 52033"
+        people:people_pic="@drawable/people_arun"
+        people:people_title="Technical Head" />
+
+</merge>

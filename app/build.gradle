@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "26.0.0"
     defaultConfig {
         applicationId "com.webarch.aaruush13"
         minSdkVersion 15
@@ -25,7 +25,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:support-v4:25.3.1'
-    compile 'com.google.android.gms:play-services-gcm:10.2.1'
+    compile 'com.google.android.gms:play-services-gcm:11.0.2'
     compile project(':AndEngine')
     compile project(':AndEnginePhysicsBox2DExtension')
     compile project(':facebook')

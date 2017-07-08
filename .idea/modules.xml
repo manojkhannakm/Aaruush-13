@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Aaruush13.iml" filepath="$PROJECT_DIR$/Aaruush13.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndEngine/AndEngine.iml" filepath="$PROJECT_DIR$/AndEngine/AndEngine.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndEnginePhysicsBox2DExtension/AndEnginePhysicsBox2DExtension.iml" filepath="$PROJECT_DIR$/AndEnginePhysicsBox2DExtension/AndEnginePhysicsBox2DExtension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aaruush-13.iml" filepath="$PROJECT_DIR$/aaruush-13.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/facebook/facebook.iml" filepath="$PROJECT_DIR$/facebook/facebook.iml" />
     </modules>
